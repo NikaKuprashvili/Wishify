@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "eqeqeq": ["error", "always"],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-unused-vars": ["warn"],
+    "no-var": "error",
+    "consistent-return": "error",
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    "react/prop-types": ["warn"],
+    "react/jsx-no-duplicate-props": ["error", { "ignoreCase": false }],
+    "react/jsx-key": "error",
+    "react/no-array-index-key": "warn",
+    "react/no-unescaped-entities": "error",
+    "indent": ["error", 2],
+    "linebreak-style": "off",
+    "max-len": ["error", { "code": 80 }],
+    "object-curly-spacing": ["error", "always"],
+    "no-undef": "off",
+    "prefer-const": "error",
+    "no-return-assign": ["error", "except-parens"],
+    "no-mixed-operators": "error",
+    "curly": ["error", "all"],
+    "import/no-extraneous-dependencies": "off",
+    "comma-dangle": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off",
+    "import/no-unresolved": "off"
+  }
+}

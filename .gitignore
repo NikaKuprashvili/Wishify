@@ -1,0 +1,13 @@
+# Root .gitignore (at the project root level)
+
+# Ignore virtual environment folder for backend
+venv/
+
+# Ignore node_modules folder for frontend
+frontend/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore .env file
+.env
